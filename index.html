@@ -4,32 +4,34 @@
 	<head>
 		<title>Vendas livre - Produtos para informática</title>
 		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="header">
-			<img src="img/LOGO.png">
-			<i class="material-icons md-36">search</i>
-			<input type="text" id="input" onkeyup="filter()" placeholder="Pesquisar" value="">
-
-			<div id="menu" class="menu">
-				<ul>
-					<li>Home</li>
-					<li>Sobre</li>
-					<li>Carrinho</li>
-					<li id="icone-menu" class="icone-menu" onclick="openMenu()">&#9776;</li>
-				</ul>
+			<div class="container">
+				<div>
+					<img src="img/LOGO.png">
+				</div>
+	
+				<div class="container-search">
+					<div class="wrapper-search"><i class="material-icons md-36 search">search</i></div>
+					<input type="text" id="input" onkeyup="filter()" placeholder="Pesquisar" value=""/>
+				</div>
+	
+				<div id="menu" class="menu">
+					<ul>
+						<li>Home</li>
+						<li>Sobre</li>
+						<li>Carrinho</li>
+						<li id="icone-menu" class="icone-menu" onclick="openMenu()">&#9776;</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		
-
-			
-
 
 	</body>
 
